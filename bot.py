@@ -17,7 +17,7 @@ import json
 from discord.utils import get
 from discord import Game
 
-my_token = 'NTkwODcyMzUzMTQwMTEzNDA5.XQoi-Q.Lw3cQq_wSYUwNzaL4ZGSP-bcLt8'
+my_token = 'NTkwODcyMzUzMTQwMTEzNDA5.XQqDuQ.je9M7g_kdUXzhKt4SCzQwgAWzWA'
 
 owner = ["393072714379689987"]
 
