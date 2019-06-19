@@ -148,10 +148,9 @@ async def kick(ctx, userName: discord.User):
     await client.say("@everyone")
     await client.say("***•Kick Notifications•***")
     time.sleep(1)
-    await client.say("***•Name•:***".format(userName))
+    await client.say("***•Name•:***")
     time.sleep(1)
-    
-
+    await client.say(userName)
     await client.kick(userName)
 
 @client.command(pass_context = True)
@@ -161,8 +160,9 @@ async def ban(ctx, userName: discord.User):
     await client.say("@everyone")
     await client.say("***•Banned Notifications•***")
     time.sleep(1)
-    await client.say("***•Name•:{}***".format(userName))
+    await client.say("***•Name•:***")
     time.sleep(1)
+    await client.say(userName)
     
     await client.ban(userName, delete_message_days=7)
 
