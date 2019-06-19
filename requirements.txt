@@ -1,0 +1,8 @@
+discord
+asyncio
+youtube_dl
+
+pip
+
+
+
